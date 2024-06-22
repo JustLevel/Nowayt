@@ -3,7 +3,7 @@ if not game:IsLoaded() then
 end
 
 local goombies = {
-    [7622046644] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/working-newbie/main/AOTR.lua"))()',
+    [7622046644] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/working-newbie/main/AOTR.lua"))()'
 }
 
 if goombies[game.CreatorId] then
